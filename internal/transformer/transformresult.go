@@ -16,8 +16,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
 
-	sdkCommon "github.com/edgexfoundry/device-sdk-go/v3/internal/common"
-	sdkModels "github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	sdkCommon "github.com/denniskertis/device-sdk-go/v42/internal/common"
+	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )
 
 const (

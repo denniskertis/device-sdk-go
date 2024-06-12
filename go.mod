@@ -1,4 +1,4 @@
-module github.com/edgexfoundry/device-sdk-go/v3
+module github.com/denniskertis/device-sdk-go/v42
 
 go 1.21
 

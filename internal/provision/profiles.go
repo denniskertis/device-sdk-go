@@ -12,7 +12,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
+	"net/url"
+	"os"
+	"path/filepath"
+
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/file"
 	bootstrapInterfaces "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
@@ -25,9 +29,6 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
 	"github.com/google/uuid"
 	"gopkg.in/yaml.v3"
-	"net/url"
-	"os"
-	"path/filepath"
 )
 
 const (

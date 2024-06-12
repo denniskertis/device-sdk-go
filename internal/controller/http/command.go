@@ -19,8 +19,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/responses"
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/application"
-	sdkCommon "github.com/edgexfoundry/device-sdk-go/v3/internal/common"
+	"github.com/denniskertis/device-sdk-go/v42/internal/application"
+	sdkCommon "github.com/denniskertis/device-sdk-go/v42/internal/common"
 
 	"github.com/labstack/echo/v4"
 )

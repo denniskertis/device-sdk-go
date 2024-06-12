@@ -12,6 +12,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"net/http"
+	"net/url"
+	"os"
+	"path/filepath"
+
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/file"
 	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
@@ -25,13 +30,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v3"
-	"net/http"
-	"net/url"
-	"os"
-	"path/filepath"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 )
 
 func LoadDevices(path string, dic *di.Container) errors.EdgeX {

@@ -9,9 +9,9 @@
 package main
 
 import (
-	"github.com/edgexfoundry/device-sdk-go/v3"
-	"github.com/edgexfoundry/device-sdk-go/v3/example/driver"
-	"github.com/edgexfoundry/device-sdk-go/v3/pkg/startup"
+	"github.com/denniskertis/device-sdk-go/v42"
+	"github.com/denniskertis/device-sdk-go/v42/example/driver"
+	"github.com/denniskertis/device-sdk-go/v42/pkg/startup"
 )
 
 const (

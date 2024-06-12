@@ -16,13 +16,13 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
 	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/common"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/controller/http"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/controller/messaging"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/provision"
-	"github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
+	"github.com/denniskertis/device-sdk-go/v42/internal/common"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/controller/http"
+	"github.com/denniskertis/device-sdk-go/v42/internal/controller/messaging"
+	"github.com/denniskertis/device-sdk-go/v42/internal/provision"
+	"github.com/denniskertis/device-sdk-go/v42/pkg/models"
 
 	"github.com/labstack/echo/v4"
 )

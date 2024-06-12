@@ -8,7 +8,11 @@ package provision
 import (
 	"context"
 	goErrors "errors"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
+	"net/url"
+	"path"
+	"testing"
+
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
 	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
@@ -17,9 +21,6 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"net/url"
-	"path"
-	"testing"
 )
 
 var simpleProfile = responses.DeviceProfileResponse{

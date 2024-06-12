@@ -19,7 +19,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
 	"github.com/google/uuid"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
 )
 
 // AddDeviceProfile adds a new DeviceProfile to the Device Service and Core Metadata

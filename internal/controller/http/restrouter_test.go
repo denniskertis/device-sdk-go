@@ -30,8 +30,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/config"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/config"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"

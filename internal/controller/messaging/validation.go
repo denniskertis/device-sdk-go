@@ -17,7 +17,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
 	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 )
 
 func SubscribeDeviceValidation(ctx context.Context, dic *di.Container) errors.EdgeX {

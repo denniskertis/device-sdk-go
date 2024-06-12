@@ -8,8 +8,9 @@ package provision
 
 import (
 	"context"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/config"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
+
+	"github.com/denniskertis/device-sdk-go/v42/internal/config"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
 	bootstrapMocks "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces/mocks"
 	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"

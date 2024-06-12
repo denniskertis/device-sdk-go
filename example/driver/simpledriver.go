@@ -26,9 +26,9 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
 	gometrics "github.com/rcrowley/go-metrics"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/example/config"
-	"github.com/edgexfoundry/device-sdk-go/v3/pkg/interfaces"
-	sdkModels "github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	"github.com/denniskertis/device-sdk-go/v42/example/config"
+	"github.com/denniskertis/device-sdk-go/v42/pkg/interfaces"
+	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )
 
 const readCommandsExecutedName = "ReadCommandsExecuted"

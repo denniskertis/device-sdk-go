@@ -21,8 +21,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
 	"github.com/google/uuid"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/application"
-	sdkCommon "github.com/edgexfoundry/device-sdk-go/v3/internal/common"
+	"github.com/denniskertis/device-sdk-go/v42/internal/application"
+	sdkCommon "github.com/denniskertis/device-sdk-go/v42/internal/common"
 )
 
 type Executor struct {

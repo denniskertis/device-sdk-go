@@ -15,7 +15,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
 
-	sdkModels "github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 
 	"github.com/labstack/echo/v4"
 )
