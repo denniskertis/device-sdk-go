@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/http/utils"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/http/utils"
 
 	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
 	sdkCommon "github.com/denniskertis/device-sdk-go/v42/internal/common"
@@ -26,12 +26,12 @@ import (
 	"github.com/denniskertis/device-sdk-go/v42/internal/transformer"
 	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 )
 
 func GetCommand(ctx context.Context, deviceName string, commandName string, queryParams string, regexCmd bool, dic *di.Container) (*dtos.Event, errors.EdgeX) {

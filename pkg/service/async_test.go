@@ -8,8 +8,8 @@ package service
 import (
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 	"github.com/stretchr/testify/assert"
 
 	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"

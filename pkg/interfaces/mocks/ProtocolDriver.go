@@ -6,7 +6,7 @@ import (
 	interfaces "github.com/denniskertis/device-sdk-go/v42/pkg/interfaces"
 	mock "github.com/stretchr/testify/mock"
 
-	models "github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	models "github.com/denniskertis/go-mod-core-contracts/v42/models"
 
 	pkgmodels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )

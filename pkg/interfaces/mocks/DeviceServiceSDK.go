@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	bootstrapinterfaces "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
-	dtos "github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
+	bootstrapinterfaces "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
+	dtos "github.com/denniskertis/go-mod-core-contracts/v42/dtos"
 
 	echo "github.com/labstack/echo/v4"
 
@@ -12,11 +12,11 @@ import (
 
 	interfaces "github.com/denniskertis/device-sdk-go/v42/pkg/interfaces"
 
-	logger "github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	logger "github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 
 	mock "github.com/stretchr/testify/mock"
 
-	models "github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	models "github.com/denniskertis/go-mod-core-contracts/v42/models"
 
 	pkgmodels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )

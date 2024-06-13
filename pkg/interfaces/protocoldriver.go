@@ -12,7 +12,7 @@
 package interfaces
 
 import (
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
 	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )

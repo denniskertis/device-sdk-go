@@ -6,11 +6,12 @@
 package provision
 
 import (
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/utils"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
 	"net/url"
 	"path"
 	"strings"
+
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/utils"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 )
 
 type FileType int

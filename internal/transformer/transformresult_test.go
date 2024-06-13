@@ -10,8 +10,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

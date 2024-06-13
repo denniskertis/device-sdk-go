@@ -11,14 +11,14 @@ import (
 
 	"github.com/denniskertis/device-sdk-go/v42/internal/config"
 	"github.com/denniskertis/device-sdk-go/v42/internal/container"
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	bootstrapMocks "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces/mocks"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	clientMocks "github.com/edgexfoundry/go-mod-core-contracts/v3/clients/interfaces/mocks"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/responses"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	bootstrapMocks "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces/mocks"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	clientMocks "github.com/denniskertis/go-mod-core-contracts/v42/clients/interfaces/mocks"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/responses"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 	"github.com/stretchr/testify/mock"
 )
 

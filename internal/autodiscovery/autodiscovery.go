@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
 	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 )
