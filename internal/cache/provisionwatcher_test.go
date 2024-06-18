@@ -8,7 +8,7 @@ package cache
 import (
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

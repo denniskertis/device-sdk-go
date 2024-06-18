@@ -12,17 +12,17 @@ import (
 	"fmt"
 	"regexp"
 
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/requests"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/requests"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/common"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/transformer"
-	sdkModels "github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
+	"github.com/denniskertis/device-sdk-go/v42/internal/common"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/transformer"
+	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )
 
 // processAsyncResults processes readings that are pushed from

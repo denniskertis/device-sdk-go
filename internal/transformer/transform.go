@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
-	sdkCommon "github.com/edgexfoundry/device-sdk-go/v3/internal/common"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
-	"github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
+	sdkCommon "github.com/denniskertis/device-sdk-go/v42/internal/common"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/pkg/models"
 
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
 )
 
 var (

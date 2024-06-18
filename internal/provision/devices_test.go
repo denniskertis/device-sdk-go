@@ -6,15 +6,16 @@
 package provision
 
 import (
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/requests"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"net/url"
 	"path"
 	"testing"
+
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/requests"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func Test_processDevices(t *testing.T) {

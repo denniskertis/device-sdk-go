@@ -11,8 +11,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
 )
 
 const (

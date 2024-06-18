@@ -13,16 +13,16 @@ import (
 	"net/url"
 	"strings"
 
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/responses"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/responses"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/application"
-	sdkCommon "github.com/edgexfoundry/device-sdk-go/v3/internal/common"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/application"
+	sdkCommon "github.com/denniskertis/device-sdk-go/v42/internal/common"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 )
 
 func SubscribeCommands(ctx context.Context, dic *di.Container) errors.EdgeX {

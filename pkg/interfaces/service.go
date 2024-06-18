@@ -9,13 +9,13 @@ package interfaces
 import (
 	"net/http"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
-	sdkModels "github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 
 	"github.com/labstack/echo/v4"
 )

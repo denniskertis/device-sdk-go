@@ -21,14 +21,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 	gometrics "github.com/rcrowley/go-metrics"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/example/config"
-	"github.com/edgexfoundry/device-sdk-go/v3/pkg/interfaces"
-	sdkModels "github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	"github.com/denniskertis/device-sdk-go/v42/example/config"
+	"github.com/denniskertis/device-sdk-go/v42/pkg/interfaces"
+	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )
 
 const readCommandsExecutedName = "ReadCommandsExecuted"

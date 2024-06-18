@@ -9,9 +9,9 @@ package autodiscovery
 import (
 	"sync"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/pkg/interfaces"
+	"github.com/denniskertis/device-sdk-go/v42/pkg/interfaces"
 )
 
 type discoveryLocker struct {

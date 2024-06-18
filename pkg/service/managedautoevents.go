@@ -10,10 +10,10 @@ package service
 import (
 	"fmt"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
 )
 
 // AddDeviceAutoEvent adds a new AutoEvent to the Device with given name

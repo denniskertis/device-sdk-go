@@ -10,13 +10,13 @@ import (
 	"context"
 	"sync"
 
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/cache"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/cache"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 )
 
 type manager struct {

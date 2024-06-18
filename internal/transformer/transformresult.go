@@ -10,14 +10,14 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/interfaces"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/interfaces"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
-	sdkCommon "github.com/edgexfoundry/device-sdk-go/v3/internal/common"
-	sdkModels "github.com/edgexfoundry/device-sdk-go/v3/pkg/models"
+	sdkCommon "github.com/denniskertis/device-sdk-go/v42/internal/common"
+	sdkModels "github.com/denniskertis/device-sdk-go/v42/pkg/models"
 )
 
 const (

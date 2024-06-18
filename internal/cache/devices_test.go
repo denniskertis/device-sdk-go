@@ -9,15 +9,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/config"
-	"github.com/edgexfoundry/device-sdk-go/v3/internal/container"
+	"github.com/denniskertis/device-sdk-go/v42/internal/config"
+	"github.com/denniskertis/device-sdk-go/v42/internal/container"
 
-	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces/mocks"
-	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v3/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	bootstrapContainer "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces/mocks"
+	bootstrapConfig "github.com/denniskertis/go-mod-bootstrap/v42/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
